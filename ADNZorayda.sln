@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNZorayda.Domain", "ADNZorayda.Domain\ADNZorayda.Domain.csproj", "{15ED6F9E-090C-4120-95DE-6A5E7A48A37D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{609B10FF-C004-4C3D-B2D2-28B5E9E4B6F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNZorayda.Domain.Test", "ADNZorayda.Domain.Test\ADNZorayda.Domain.Test.csproj", "{4626328D-DC11-448F-BBDD-88EDDC6421F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNZorayda.Droid", "ADNZorayda.Droid\ADNZorayda.Droid.csproj", "{422F4FBE-C521-45F6-8B3B-0AFBC30D7B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNZorayda.Droid.UITests", "ADNZorayda.Droid.UITests\ADNZorayda.Droid.UITests.csproj", "{D44D6282-609E-40F4-8675-E6B4CE9E0518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNZorayda.Infrastructure", "ADNZorayda.Infrastructure\ADNZorayda.Infrastructure.csproj", "{D7CDB61B-C4FB-42AF-A27B-756380BC137E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15ED6F9E-090C-4120-95DE-6A5E7A48A37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ED6F9E-090C-4120-95DE-6A5E7A48A37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ED6F9E-090C-4120-95DE-6A5E7A48A37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ED6F9E-090C-4120-95DE-6A5E7A48A37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4626328D-DC11-448F-BBDD-88EDDC6421F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4626328D-DC11-448F-BBDD-88EDDC6421F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4626328D-DC11-448F-BBDD-88EDDC6421F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4626328D-DC11-448F-BBDD-88EDDC6421F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422F4FBE-C521-45F6-8B3B-0AFBC30D7B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422F4FBE-C521-45F6-8B3B-0AFBC30D7B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422F4FBE-C521-45F6-8B3B-0AFBC30D7B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422F4FBE-C521-45F6-8B3B-0AFBC30D7B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44D6282-609E-40F4-8675-E6B4CE9E0518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44D6282-609E-40F4-8675-E6B4CE9E0518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44D6282-609E-40F4-8675-E6B4CE9E0518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44D6282-609E-40F4-8675-E6B4CE9E0518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CDB61B-C4FB-42AF-A27B-756380BC137E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CDB61B-C4FB-42AF-A27B-756380BC137E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CDB61B-C4FB-42AF-A27B-756380BC137E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CDB61B-C4FB-42AF-A27B-756380BC137E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAAE7C63-B665-44E3-9A39-787BE3B21B8E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4626328D-DC11-448F-BBDD-88EDDC6421F7} = {609B10FF-C004-4C3D-B2D2-28B5E9E4B6F0}
+		{D44D6282-609E-40F4-8675-E6B4CE9E0518} = {609B10FF-C004-4C3D-B2D2-28B5E9E4B6F0}
+	EndGlobalSection
+EndGlobal
