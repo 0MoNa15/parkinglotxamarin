@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ADNZorayda.Domain.vehicle
+namespace ADNZorayda.Domain.vehicle.webservice
 {
     public class CarService
     {

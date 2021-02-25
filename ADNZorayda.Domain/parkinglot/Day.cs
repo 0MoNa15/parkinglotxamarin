@@ -3,7 +3,7 @@ namespace ADNZorayda.Domain.parkinglot
 {
     public class Day
     {
-        public String identifyDay = null;
+        public string identifyDay = null;
         public TypeOfDay? type =  null;
 
         public Day()
@@ -14,8 +14,8 @@ namespace ADNZorayda.Domain.parkinglot
         public struct TypeOfDay
         {
             // Solo en los dias especiales pueden ingresar los vehiculos con placa que inicie en 'A'
-            public static String SPECIAL_DAYD;
-            public static String NORMAL_DAY;
+            public static string SPECIAL_DAYD;
+            public static string NORMAL_DAY;
         }
 
         //fun availablesDays(): ArrayList<Day>{

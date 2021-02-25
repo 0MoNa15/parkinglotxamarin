@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Globalization;
 using ADNZorayda.Domain.parkinglot;
-using ADNZorayda.Domain.vehicle;
+using ADNZorayda.Domain.vehicle.entity;
+using ADNZorayda.Domain.vehicle.webservice;
 
-namespace ADNZorayda.Domain
+namespace ADNZorayda.Domain.parkinglot
 {
     // Validaciones y reglas de negocio con relación al parqueadero en general
     public class ParkingLotService
@@ -19,7 +20,7 @@ namespace ADNZorayda.Domain
         }
 
         // 'A' en inicial de la placa solo ingresan los Domingos y Lunes
-        public Boolean licensePlateVerificationForAdmission(String licensePlate) {
+        public bool licensePlateVerificationForAdmission(string licensePlate) {
             // Para obtener el dia actual y posteriormente compararlo
             var usCulture = new CultureInfo("es-CO");
             var d = DateTime.UtcNow;
@@ -28,6 +29,7 @@ namespace ADNZorayda.Domain
 
             Day day;
             Day[] mList = Day.availablesDays();
+            
 
             for (int i = 0; i < Day.availablesDays().Length; i++)
             {
@@ -37,8 +39,7 @@ namespace ADNZorayda.Domain
                     //var letter :String = licensePlate[0].toString()
                     String letter = "";
 
-                    if (letter.Equals(INITIAL_WITH_SPECIAL_CONDITION) ||
-                        letter.Equals(INITIAL_WITH_SPECIAL_CONDITION_LOWER))
+                    if (letter == LicencePlate.INITIAL_WITH_SPECIAL_CONDITION || letter == LicencePlate.INITIAL_WITH_SPECIAL_CONDITION_LOWER)
                     {
                         return false;
                     }
@@ -50,12 +51,12 @@ namespace ADNZorayda.Domain
             return true;
         }
 
-        public Boolean carLimitValidation(int currentQuantity)
+        public bool carLimitValidation(int currentQuantity)
         {
             return false;
         }
 
-        public Boolean motorcycleLimitValidation(int currentQuantity)
+        public bool motorcycleLimitValidation(int currentQuantity)
         {
             return false;
         }
@@ -100,19 +101,19 @@ namespace ADNZorayda.Domain
             return 0;
         }
         */
-        public Boolean enterANewCar(Car car)
+        public bool enterANewCar(Car car)
         {
             return false;
         }
 
-        public Boolean enterANewMotorcycle(Motorcycle motorcycle)
+        public bool enterANewMotorcycle(Motorcycle motorcycle)
         {
             return false;
         }
 
-        public String currentDate()
+        public bool currentDate()
         {
-            return "";
+            return false;
         }
         
     }
